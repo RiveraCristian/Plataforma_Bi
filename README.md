@@ -22,8 +22,7 @@ El script valida que `poetry` y `yarn` estén disponibles, instala dependencias
 si es necesario y levanta los servidores en `http://localhost:8000` (backend) y
 `http://localhost:5173` (frontend). Usa `Ctrl+C` para detener ambos servicios.
 
-### Ejecutar servicios manualmente
-
+### Ejecutar servicios manualment
 ```bash
 # Backend
 cd backend
@@ -37,4 +36,3 @@ yarn dev
 # Docker Compose (servicios completos)
 docker-compose up --build
 ```
-
