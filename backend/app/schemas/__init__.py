@@ -9,3 +9,4 @@ from app.schemas.chart import Chart, ChartCreate, ChartUpdate  # noqa: F401
 from app.schemas.dashboard_filter import DashboardFilter, DashboardFilterCreate, DashboardFilterUpdate  # noqa: F401
 from app.schemas.permission import Permission, PermissionCreate  # noqa: F401
 from app.schemas.query import QueryRequest  # noqa: F401
+from app.schemas.auth import LoginRequest  # noqa: F401
